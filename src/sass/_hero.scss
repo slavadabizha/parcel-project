@@ -25,13 +25,13 @@
     }
     &_text {
 
-        @include font(54px,null, cyan, 1.6, null );
+        @include font(14px, null, cyan, 1.6, null );
         @media screen and (min-width: 768px) {
-            @include font(24px, null, violet, 1.4, null );
+            @include font(18px, null, violet, 1.4, null );
           }
           @media screen and (min-width: 1200px) {
           
-            @include font(24px,null, green, 1.4, null );
+            @include font(20px, null, green, 1.4, null );
           }
     }
 }
